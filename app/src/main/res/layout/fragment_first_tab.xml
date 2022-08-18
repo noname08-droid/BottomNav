@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".FirstFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/firstNum"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:textSize="20sp"
+            android:background="@drawable/button_main"
+            android:hint="First Num"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:inputType="numberDecimal"
+            android:textColor="#fff"/>
+
+        <EditText
+            android:id="@+id/secondNum"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:background="@drawable/button_main"
+            android:inputType="numberDecimal"
+            android:hint="Second Num"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:id="@+id/thirdNum"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:background="@drawable/button_main"
+            android:inputType="numberDecimal"
+            android:hint="Third Num"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"/>
+
+        <Button
+            android:id="@+id/ans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Result"
+            android:background="@drawable/button_main"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"/>
+
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:layout_marginTop="30dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
