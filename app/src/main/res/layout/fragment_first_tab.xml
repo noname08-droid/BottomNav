@@ -15,22 +15,28 @@
         <EditText
             android:id="@+id/firstNum"
             android:layout_width="150dp"
-            android:layout_height="70dp"
+            android:layout_height="50dp"
             android:textSize="20sp"
             android:background="@drawable/button_main"
             android:hint="First Num"
             android:layout_gravity="center"
             android:layout_marginTop="30dp"
             android:gravity="center"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/white"
             android:inputType="numberDecimal"
             android:textColor="#fff"/>
 
         <EditText
             android:id="@+id/secondNum"
             android:layout_width="150dp"
-            android:layout_height="70dp"
+            android:textColorHint="@color/white"
+            android:layout_height="50dp"
             android:background="@drawable/button_main"
             android:inputType="numberDecimal"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
             android:hint="Second Num"
             android:gravity="center"
             android:textColor="#fff"
@@ -41,8 +47,11 @@
         <EditText
             android:id="@+id/thirdNum"
             android:layout_width="150dp"
-            android:layout_height="70dp"
+            android:layout_height="50dp"
+            android:textColorHint="@color/white"
             android:background="@drawable/button_main"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
             android:inputType="numberDecimal"
             android:hint="Third Num"
             android:layout_gravity="center"
@@ -50,6 +59,7 @@
             android:textColor="#fff"
             android:textSize="20sp"
             android:layout_marginTop="20dp"/>
+
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

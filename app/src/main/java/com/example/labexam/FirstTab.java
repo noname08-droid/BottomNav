@@ -13,6 +13,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import androidx.core.view.AccessibilityDelegateCompat;
+import androidx.core.view.ViewCompat;
+import androidx.core.view.accessibility.AccessibilityNodeInfoCompat;
 import androidx.fragment.app.Fragment;
 
 import java.text.DecimalFormat;
@@ -70,13 +73,17 @@ public class FirstTab extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+
+
         // Inflate the layout for this fragment
         View v = inflater.inflate(R.layout.fragment_first_tab, container, false);
+
 
          EditText firstNum = (EditText) v.findViewById(R.id.firstNum);
         EditText secondNum = (EditText) v.findViewById(R.id.secondNum);
         EditText thirdNum = (EditText) v.findViewById(R.id.thirdNum);
         TextView result = (TextView) v.findViewById(R.id.result);
+
 
 //        ((InputMethodManager)getContext().getSystemService(Context.INPUT_METHOD_SERVICE)).
 //                toggleSoftInput(InputMethodManager.SHOW_FORCED, InputMethodManager.HIDE_IMPLICIT_ONLY);

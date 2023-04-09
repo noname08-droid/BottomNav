@@ -94,7 +94,7 @@ Context context1;
                         tab.setText("Tab 1");
                         tab.setIcon(getResources().getDrawable(R.drawable.ic_baseline_calculate));
                         BadgeDrawable badgeDrawable = tab.getOrCreateBadge();
-                        badgeDrawable.setBackgroundColor(getResources().getColor(R.color.white));
+                        badgeDrawable.setBackgroundColor(getResources().getColor(R.color.black));
                         badgeDrawable.setVisible(true);
 
 //                        ((InputMethodManager)getContext().getSystemService(Context.INPUT_METHOD_SERVICE)).
@@ -105,7 +105,7 @@ Context context1;
                         tab.setText("Tab 2");
                         tab.setIcon(getResources().getDrawable(R.drawable.ic_baseline_web));
                         BadgeDrawable badgeDrawable = tab.getOrCreateBadge();
-                        badgeDrawable.setBackgroundColor(getResources().getColor(R.color.white));
+                        badgeDrawable.setBackgroundColor(getResources().getColor(R.color.black));
                         badgeDrawable.setVisible(true);
                         badgeDrawable.setNumber(100);
                         badgeDrawable.setMaxCharacterCount(3);
@@ -115,7 +115,7 @@ Context context1;
                         tab.setText("Tab 3");
                         tab.setIcon(getResources().getDrawable(R.drawable.ic_baseline_image));
                         BadgeDrawable badgeDrawable = tab.getOrCreateBadge();
-                        badgeDrawable.setBackgroundColor(getResources().getColor(R.color.white));
+                        badgeDrawable.setBackgroundColor(getResources().getColor(R.color.black));
                         badgeDrawable.setVisible(true);
                         badgeDrawable.setNumber(5);
                         break;
